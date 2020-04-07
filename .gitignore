@@ -1,0 +1,12 @@
+# virtualenv
+venv
+
+# sensitive data
+config.yml
+service-account.json
+
+# jetbrains
+.idea
+
+# python
+__pycache__
