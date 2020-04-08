@@ -1,7 +1,5 @@
-from config import config
+from config import config, DATABASE_SECTION
 import psycopg2
-
-DATABASE_SECTION = 'postgresql-local'
 
 
 def connection():

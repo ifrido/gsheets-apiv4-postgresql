@@ -1,8 +1,6 @@
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = 'service-account.json'
+from config import SERVICE_ACCOUNT_FILE, SCOPES
 
 
 def service():
