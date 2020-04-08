@@ -1,0 +1,21 @@
+databases:
+  default:
+    host: <host>
+    port: <port>
+    database: <db>
+    user: <user>
+    password: <password>
+    sslmode: <sslmode>
+spreadsheet:
+  id: <spreadsheet-id>
+  sheets:
+    <section-1-name>:
+      name: <sheet-name>
+      range: <range-a1-notation>
+      query: >
+        SELECT * FROM <table>;
+    <section-2-name>:
+      name: <sheet-name>
+      range: <range-a1-notation>
+      query: >
+        SELECT * FROM <table>;
